@@ -26,6 +26,7 @@ Queue aliases: `mainQueue`, `defaultQueue`, `backgroundQueue`, `highPriorityQueu
           // Do something in the main queue.
         })
     })
+  }
 ```
 
 Delayed queues aliases: `delay:` (which is a shorthand notation for: `delayedMainQueue:`), `delayedDefaultQueue:`, `delayedBackgroundQueue:`, `delayedHighPriorityQueue:`, `delayedLowPriorityQueue:`.
