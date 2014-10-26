@@ -19,7 +19,7 @@ Queue aliases: `mainQueue`, `defaultQueue`, `backgroundQueue`, `highPriorityQueu
   }
   
   // Which does the same as:
-  func usedDoSomethingLikeThis() {
+  func usedToDoSomethingLikeThis() {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
        // Do something in the default queue.
         dispatch_async(dispatch_get_main_queue(), {
