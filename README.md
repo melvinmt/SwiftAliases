@@ -4,7 +4,7 @@ SwiftAliases
 Collection of short Swift aliases for often used boiler plate code.
 
 # Installation
-Drag the `QueueAliases.swift` file to your XCode project.
+Drag the `QueueAliases.swift` file to your XCode project. (Use pull requests to suggest more aliases!).
 
 # Usage
 Queue aliases: `mainQueue`, `defaultQueue`, `backgroundQueue`, `highPriorityQueue`, `lowPriorityQueue`.
